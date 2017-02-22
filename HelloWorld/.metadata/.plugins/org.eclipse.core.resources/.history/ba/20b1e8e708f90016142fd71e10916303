@@ -7,14 +7,14 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Digite a opcao desejada de 1 a 4 (1 - soma | 2 - Mult | 3 - Sub | 4 - Div):");
-		double operacao = scan.nextDouble();
+		double operacao = scan.nextInt();
 		System.out.println("Digite o numero A: ");
-		double a = scan.nextDouble();
+		double a = scan.nextDouble()
 		System.out.println("Digite o numero B: ");
 		double b = scan.nextDouble();
 		
 		Calculadora calc = new Calculadora();
-		double resultado = 0;
+		int resultado = 0;
 		if (operacao == 1){
 			resultado = calc.soma(a, b);
 		}
@@ -27,7 +27,7 @@ public class Main {
 		else if (operacao == 3){
 			resultado = calc.divisao(a, b);
 		}
-		System.out.printf("Resultado = %s \n", String.valueOf(resultado));
+		System.out.printf("Resultado = %d \n", String.valueOf(resultado);
 		scan.close();
 	}
 }
