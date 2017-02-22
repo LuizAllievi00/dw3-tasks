@@ -1,0 +1,12 @@
+package MyPackage;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args){
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Digite a opcao desejada de 1 a 4 (1 - soma | 2 - Mult | 3 - Sub | 4 - Div):");
+		scan
+	}
+}
